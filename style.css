@@ -1,0 +1,15 @@
+ul:not(:first-child){
+    color: blue;
+}
+ul:only-child{
+    color: violet;
+}
+ul:not(:last-child){
+    color: blueviolet
+}
+ul:last-child{
+    color: grey;
+}
+ul:first-child{
+    color: pink;
+}
